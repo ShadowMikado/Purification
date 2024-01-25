@@ -1,0 +1,21 @@
+time:
+  time_to_purifie: 10 # temps à rester dans la zone entre chaque item purifié
+  time_bar_unit: "■" # L'unité de la barre de chargement
+  color_purifie: "§a" # Couleur de la barre de chargement lorsque c'est remplie.
+  color_not_purifie: "§c" # Couleur de la barre dce chargement lorsque ce n'est pas remplie.
+
+purification:
+  type: "items" # ou "money" pour mettre la récompense de la purification en money
+  to_purifie: "10|sugar" # nombre:l'item à purifier
+  purified: "5|diamond" # ou un nombre (pour la money) sans les guillemets
+
+messages:
+  loading: "§l» §r§bPurification: {time}" # message de purification, {time} est pour la barre de progression
+  not_good_item: "§aMerci de tenir §b{count} {item} §aen main" # message lorsque ce n'est pas le bon item
+  canceled: "§cLa purification a été annulée !" # message quand la purification est annulée (ex: le joueur sort de la zone)
+  money: "§a+ {money} " # message de la récompense de la purification en money, {money} pour le nombre de money donné
+  not_count: "§cVous n'avez pas assez de {item} (réquis {count})"
+
+position:
+  position_1: [41, 60, 294] # 1ere position [x, y, z]
+  position_2: [37, 60, 290] # 2nde position [x, y, z]
